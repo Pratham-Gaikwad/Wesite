@@ -21,7 +21,7 @@ const Skills = () => {
   
   return (
     <div className="main-skill">
-      <h1 className='heading-skills'> My Skills</h1>
+      <h1 className='heading-skills'> My Skills </h1>
       <div className="Techinical-1">
         <div className="techHead">Techinical Skills :</div>
         <SkillBar skills={TechinicalSkills} height={30} colors={colors} symbolColor={'#bdffd9'}/>

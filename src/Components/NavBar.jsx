@@ -1,11 +1,12 @@
 import "./Navbar.css"
 
-import {Link} from 'react-scroll'
+// import {Link} from 'react-scroll'
 
 // import Components
 import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 import { FaGithub ,FaLinkedinIn,FaInstagram,FaTwitter} from 'react-icons/fa';
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -18,7 +19,7 @@ const NavBar = () => {
       <nav className="main-nav">
         {/* Logo */}
         <div className="Logo">
-          <img src="Monogram.svg" alt="Monogram" />
+          <img src="Monogram-White.svg" alt="Monogram" />
           <h2>
             <span>P</span>ratham
             <span>G</span>aikwad
@@ -58,12 +59,12 @@ const NavBar = () => {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Pratham-Gaikwad" target="_Pratham">
+                <a href="https://www.linkedin.com/in/pratham-gaikwad-199829239" target="_Pratham">
                   <FaLinkedinIn className="LinkedIn"/>
                 </a>
               </li>
              <li>
-                <a href="https://github.com/Pratham-Gaikwad" target="_Pratham">
+                <a href="https://www.instagram.com/_pratham_gaikwad_/" target="_Pratham">
                   <FaInstagram className="Instagram"/>
                 </a>
               </li>
@@ -99,7 +100,7 @@ const NavBar = () => {
          </div> 
 
          <div className="Cointainer">
-          <div className="Component" id="Project"> <h1>projects cointainer</h1> </div>
+          <div className="Component" id="Project"> <Projects/> </div>
          </div> 
       </main>
     </>
