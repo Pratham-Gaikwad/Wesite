@@ -1,0 +1,59 @@
+*{
+  color: #84b289;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.main-skill{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 3rem 70rem 3rem 70rem 3rem ;
+    /* border: solid whitesmoke; */
+    height: 100%;
+    width: 100%;
+}
+
+.heading-skills{ 
+    font-weight: 10;
+
+    font-size: 400%;
+    padding: 1%;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+/* skill-bar-styling */
+.Techinical-1{
+  color: "#bdffd9";
+  grid-row: 2/3;
+  grid-column: 2/3;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 200%;
+  
+}
+
+.skillbar-title span{
+  font-size: 18px;
+  color: #bdffd9;
+}
+
+.skillbar{
+  margin-bottom: 20px;
+}
+
+.techHead {
+  margin-bottom: 5%;
+  font-size: 200%;
+  font-weight: 300;
+}
+
+.Softskill-1{
+  grid-row: 2/3;
+  grid-column: 4/5;
+  margin-left: 5%;
+}
+.softHead {
+  margin-bottom: 4%;
+  font-size: 400%;
+  font-weight: 300;
+}
+

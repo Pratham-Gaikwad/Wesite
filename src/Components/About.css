@@ -1,0 +1,107 @@
+*{
+    color: #84b289;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.main-About{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns:repeat(2 ,1fr);
+    /* border: solid whitesmoke; */
+    height: 100%;
+    width: 100%;
+}
+
+.heading{ 
+    font-weight: 10;
+    margin-left: 3%;
+    font-size: 400%;
+    padding: 1%;
+    grid-row: 1/2;
+}
+
+/* Information */
+*{
+    font-family: 'Source Sans 3', sans-serif;
+}
+.info {
+    margin-top: 3%;
+    font-size: 200%;
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  
+  .label {
+    font-weight: bold; /* Make values bold */
+    margin-right: 5%; 
+    
+  }
+  
+  .value {
+    
+    color: #b7dcc2; /* Color for values */
+  }
+
+  /* btn-styling */
+  .btn {
+    font-family: 'Source Sans 3', sans-serif;
+    margin-top: 8%  ;
+    margin-left: 15%;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    border:#96c9a5 solid;
+  }
+  
+  .btn:hover {
+    box-shadow: .5px .5px 150px #6dedba;
+  }
+  
+  .type2::after {
+    content: "Click!!!";
+    height: 50px;
+    width: 150px;
+    background-color: #5c7c66;
+    color: #96c9a5;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(50px);
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type2::before {
+    content: "Download CV ->";
+    height: 50px;
+    width: 150px;
+    background-color: #5c7c66;
+    background-color: #33454d;
+    color: #96c9a5;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(0px) scale(1.2);
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type2:hover::after {
+    transform: translateY(0) scale(1.2);
+  }
+  
+  .type2:hover::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+  }
