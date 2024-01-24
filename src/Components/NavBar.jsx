@@ -7,6 +7,7 @@ import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Resume from "./Resume";
 
 import { FaGithub ,FaLinkedinIn,FaInstagram,FaTwitter} from 'react-icons/fa';
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -37,7 +38,7 @@ const NavBar = () => {
               <a href="#About">About</a>
             </li>
             <li>
-              <a href="# Resume">Resume</a>
+              <a href="#Resume">Resume</a>
             </li>
             <li>
               <a href="#Skills">Skills</a>
@@ -92,7 +93,7 @@ const NavBar = () => {
          </div> 
 
          <div className="Cointainer">
-          <div className="Component" id="Resume"> <h1>Resume cointainer</h1> </div>
+          <div className="Component" id="Resume"> <Resume/> </div>
          </div> 
 
          <div className="Cointainer">
