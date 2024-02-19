@@ -24,7 +24,7 @@ export default function Projects() {
             <img className="card__background" src="Card.svg"alt="Photo " width="1920" height="2193"/>
             <div className="card__content | flow">
                 <div className="card__content--container | flow">
-                <h2 className="card__title">DoctoConnect</h2>
+                <h2 className="card__title">Covid Easy</h2>
                 <p className="card__description">
                     Online doctor appointment 
                     booking application with cloud services

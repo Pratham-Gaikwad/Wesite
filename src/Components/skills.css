@@ -14,7 +14,6 @@
 
 .heading-skills{ 
     font-weight: 10;
-
     font-size: 400%;
     padding: 1%;
     grid-row: 1/2;
@@ -56,4 +55,31 @@
   font-size: 400%;
   font-weight: 300;
 }
+ /* Softskills Styling */
+ .circular-skill-bar {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
 
+.svg-indicator {
+  width: 100%;
+  height: auto;
+}
+
+.svg-indicator-track {
+  stroke: gray;
+}
+
+.svg-indicator-indication {
+  stroke-linecap: round;
+  transform-origin: center;
+}
+
+.skill-name {
+  margin: 10px 0;
+}
+
+.skill-level {
+  font-weight: bold;
+}

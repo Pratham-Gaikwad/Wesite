@@ -1,7 +1,9 @@
 import "./skills.css"
 import SkillBar from 'react-skillbars';
+
 const Skills = () => {
 
+  
   const TechinicalSkills =[
     { type: 'Python', level: 100 },
     { type: 'C++', level: 85 },

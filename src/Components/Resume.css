@@ -40,3 +40,8 @@
 .vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date{
     margin-right: 4%;
 }
+.vertical-timeline-element-icon{
+ background: rgb(9, 255, 0);
+}
+
+/* #6dedba */
