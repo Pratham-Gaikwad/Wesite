@@ -3,8 +3,8 @@
 
   export default function Home() {
     const customStyle = {
-      fontFamily:'Tillana , system-ui' }; 
-
+            color: '#e7a7f5' // Change 'red' to any color value you desire
+    }; 
     return (
       <div className="Home-cointainer">
         <div className="title">
@@ -30,7 +30,7 @@
         <div className="btn-home">
         <button className="button type1"/>
         </div>
-        <div className="Image"></div>
+
       </div>
     )
   }

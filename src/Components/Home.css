@@ -1,13 +1,12 @@
-*{
-    font-family: 'Source Sans 3', sans-serif;
-    /* font-family: 'Source Sans 3', sans-serif;
-        font-family: 'Tillana', system-ui; */
-
-}
 
 .Home-cointainer {
+    margin-left: 7px;
+    height: 100%;
+    width: 99%;  
     display: grid;
     grid-template-rows: repeat(3, 1fr); 
+    grid-template-columns: repeat(2 , 1fr);
+    border-radius:2%;
     /* gap: 1%;  */
   }
   
@@ -20,35 +19,36 @@
     display: grid;
     grid-template-rows:repeat(2, 1fr) ;
     font-size: 300%;
-    padding: 10px;
+    padding: 15px;
     
   }
 
   .greetings{   
     grid-row: 1/2;
-    color:#84b289;
+    color:whitesmoke;
   }
   
   .name{
+    font-size: 200%;
     font-weight: 600;
-    color: #84b289;
+    color: #fd3954;
   }
   
-  .Intro {
+  .Intro{
+    grid-column: 1/2;
+    grid-row: 2/3;
     width: 100%; 
     height: 100%; 
-    color: #84b289;
+    color: whitesmoke;
     font-size: 250%;  
     padding: 10px;
   }
   
   /* Button Styleing */
   .button {
-    grid-row: 3/4;
     font-family: 'Source Sans 3', sans-serif;
     font-size: 300%;
-    margin-top: 2%  ;
-    margin-left: 8.5%;
+    margin-left: 8%;
     height: 50px;
     width: 150px;
     border: none;
@@ -60,15 +60,15 @@
   }
   
   .button:hover {
-    box-shadow: .5px .5px 150px #6dedba;
+    box-shadow: .5px .5px 150px #fd3954;
   }
   
   .type1::after {
     content: "Contact";
     height: 50px;
     width: 150px;
-    background-color: #33454d;
-    color: #96c9a5;
+    background-color: #fd3954;
+    color: whitesmoke ;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -85,8 +85,8 @@
     content: "Start a Project";
     height: 50px;
     width: 150px;
-    background-color: #5c7c66;
-    color: #96c9a5;
+    background-color: whitesmoke;
+    color: #fd3954;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -108,5 +108,18 @@
   }
 
   .btn-home{
+    grid-column: 1/2;
+    grid-row: 3/4;
     height:20vh;
+  }
+
+  /* responsive css style */
+
+  @media(max-width: 998px){
+    .Home-cointainer{
+      
+      grid-template-columns: ;
+      grid-template-rows: ;
+
+    }
   }
